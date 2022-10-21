@@ -288,7 +288,6 @@ header .barra-write {
     border-left: solid 2px #8f8f8f;
     letter-spacing: 1.5px;
     text-align: center;
-    transition: all .5s;
     padding: 10px;
     text-align: center;
     justify-content: justify;
@@ -297,7 +296,7 @@ header .barra-write {
     background-image: linear-gradient(#8f8f8f,#8f8f8f);
     background-size: 0 100%;
     background-repeat: no-repeat;
-    transition: .5s all;
+    transition: all 0.5s;
 }
 
 .habilidades li:hover {
