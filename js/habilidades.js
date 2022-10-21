@@ -22,7 +22,7 @@ html.onclick = function(){
     txt.classList.add('animacao');
 
     h1.innerHTML = 'HTML';
-    txt.innerHTML = 'O HTML é o esqueleto do seu website, configura todos os nomes e imagens do mesmo.';
+    txt.innerHTML = 'O HTML é o esqueleto do seu website, configura todos os objetos e imagens do mesmo.';
 
     html.classList.add('selected');
     css.classList.remove('selected');
