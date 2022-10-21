@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/34c3b14267.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+    <title>Portfolio</title>
+</head>
+<body>
+
+    <header>
+        <p><i class="fa-solid fa-terminal"><span id="typing" class="typing"></span></i><span class="barra-write"></span></p>
+        <nav>
+            <div class="burgericon">
+                <div class="burgeroptns" id="mobile">
+                    <a href="#home" id="algum1"><li>HOME</li></a>
+                    <a href="#habilidades" id="algum2"><li>HABILIDADES</li></a>
+                    <a href="#projetos" id="algum3"><li>PROJETOS</li></a>
+                    <a href="#contato" id="algum4"><li>CONTATO</li></a>
+                </div> <!-- burgeroptns -->
+                <input type="checkbox" class="toggler" id="toggler">
+                <div class="hamburger"><div></div></div>
+            </div> <!-- burgericon -->
+            <ul>
+                <a href="#home"><li>Home</li></a>
+                <a href="#habilidades"><li>Habilidades</li></a>
+                <a href="#projetos"><li>Projetos</li></a>
+                <a href="#contato"><li>Contato</li></a>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="blocoprinc">
+        <div class="home">
+            <div class="textoprinc">
+                <h1>OLÁ, EU SOU LUKA</h1>
+                <p>Apaixonado por esportes e tecnoloia, comecei a estudar programação Front-End em 2021. Após concluir diversos cursos comecei a fazer projetos para pessoas autônomas, você pode encontrar alguns destes em meu <a href="https://github.com/LukaSL0" target="_blank"><i class="fa-brands fa-github"></i> Github</a>. Agora com mais experiência, busco mais projetos para desenvolver e estudo para me tornar um programador fullstack.</p>
+            </div> <!-- textoprinc -->
+            <img src="assets/al2.jpg" alt="">
+        </div> <!-- home -->
+    </section> <!-- blocoprinc -->
+
+    <div class="scroll-bar" id="seta">
+        <i class="fa-solid fa-angles-down scroll"></i>
+    </div> <!-- scroll-bar -->
+
+    <section class="bloco1 init-hidden" id="habilidades">
+        <h1 class="h11">HABILIDADES</h1>
+        <div class="habilidades">
+            <ul>
+                <li id="htmloptn"><i class="fa-brands fa-html5 htmlic"></i> HTML</li>
+                <li id="cssoptn"><i class="fa-brands fa-css3-alt cssic"></i> CSS</li>
+                <li id="jsoptn"><i class="fa-brands fa-square-js jsic"></i> JavaScript</li>
+                <li id="gitoptn"><i class="fa-brands fa-git-alt gitic"></i> Git</li>
+                <li id="githuboptn"><i class="fa-brands fa-square-github"></i> Github</li>
+            </ul>
+            <div class="hab-detalhes">
+                <h1 id="h1selecionado">Selecione para visualizar</h1>
+                <p id="descselecionado"></p>
+            </div> <!-- hab-detalhes -->
+        </div> <!-- habilidades -->
+    </section> <!-- bloco1 -->
+
+    <section class="bloco2 init-hidden" id="projetos">
+        <h1 class="h12">PROJETOS</h1>
+        <div class="projetos">
+            <div class="projeto1">
+                <img src="assets/strawberry.png" alt="" class="projeto-img" id="p1redirect">
+                <p class="projeto-txt" id="p1txt">Clique para ser redirecionado</p>
+            </div> <!-- projeto1 -->
+
+            <div class="projeto2">
+                <img src="assets/eye.png" alt="" class="projeto-img" id="p2redirect">
+                <p class="projeto-txt" id="p2txt">Clique para ser redirecionado</p>
+            </div> <!-- projeto2 -->
+
+            <div class="projeto3">
+                <img src="assets/brox.png" alt="" class="projeto-img" id="p3redirect">
+                <p class="projeto-txt" id="p3txt">Clique para ser redirecionado</p>
+            </div> <!-- projeto3 -->
+        </div> <!-- projetos -->
+        <div class="desc">
+            <h2>Todos estes projetos foram feitos para clientes autônomos</h2>
+            <p>Os projetos sofreram pequenas modificações para não comprometer informações pessoais ou o projeto original dos clientes</p>
+        </div> <!-- desc -->
+    </section> <!-- bloco2 -->
+
+    <section class="bloco3 init-hidden" id="contato">
+        <h1>CONTATOS</h1>
+        <div class="contatos">
+            <div class="opcoes-contatos">
+                <h1>Redes Sociais:</h1>
+                <a href="https://github.com/LukaSL0/"><i class="fa-brands fa-square-github"></i>GitHub</a>
+                <a href="https://linkedin.com/in/luka-souza-6609ba217/"><i class="fa-brands fa-linkedin"></i>LinkedIn</a>
+                <a href="mailto:lukasouza77@gmail.com"><i class="fa-solid fa-envelope"></i>Gmail</a>
+            </div> <!-- opcoes-contatos -->
+        </div> <!-- contatos -->
+    </section> <!-- bloco3 -->
+    <section class="bloco4">
+        <footer>
+
+        </footer>
+    </section> <!-- bloco4 -->
+
+    <script src="js/habilidades.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/burger.js"></script>
+    <script src="js/typing.js"></script>
+    <script src="js/projetos.js"></script>
+</body>
+</html>
