@@ -439,12 +439,37 @@ header .barra-write {
     color: #333;
 }
 
-.contatos {
-    display: flex;
+.bloco3 p {
+    text-align: center;
+    font-size: 20px;
 }
 
-.opcoes-contatos h1 {
-    padding: 8% 0 8% 0;
+.contatos {
+    display: flex;
+    margin: 7% 0 7% 0;
+    width: 100%;
+}
+
+.opcoes-contatos {
+    text-align: center;
+    width: 100%;
+}
+
+.opcoes-contatos a {
+    border: solid 2px #333;
+    border-radius: 5px;
+    padding: 2% 5% 2% 5%;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all 0.5s;
+    color: #333;
+    letter-spacing: 2px;
+}
+
+.opcoes-contatos a:hover {
+    background-color: #333;
+    color: #F4A460;
+    transition: all 0.5s;
 }
 
 /*--------------------CONTATO--------------------*/
@@ -494,6 +519,9 @@ header .barra-write {
         width: 290px;
         height: 165px;
     }
+    .bloco3 p {
+        font-size: 18px;
+    }
 }
 
 @media screen and (max-width: 1366px){
@@ -512,6 +540,9 @@ header .barra-write {
     }
     .desc p {
         font-size: 13.5px;
+    }
+    .bloco3 p {
+        font-size: 16px;
     }
 }
 
@@ -532,6 +563,9 @@ header .barra-write {
     .projetos img {
         width: 200px;
         height: 120px;
+    }
+    .bloco3 p {
+        font-size: 14px;
     }
 }
 
@@ -621,4 +655,14 @@ header .barra-write {
         font-weight: lighter;
         font-size: 12px;
     }
+    .opcoes-contatos a {
+        display: block;
+    }
+    .opcoes-contatos .mid1 {
+        margin: 12px 0 12px 0;
+    }
+}
+
+@media screen and (max-width: 300px){      /*Galaxy Fold*/
+    
 }
