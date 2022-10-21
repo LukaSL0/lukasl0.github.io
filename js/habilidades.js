@@ -64,7 +64,7 @@ git.onclick = function(){
     txt.classList.add('animacao');
     
     h1.innerHTML = 'Git';
-    txt.innerHTML = 'O Git é um sistema de controle de versões distribuído, usado principalmente no desenvolvimento de software.';
+    txt.innerHTML = 'O Git é um sistema de controle de versões distribuído, usado principalmente no desenvolvimento de software, utilizado em conjunto com o GitHub.';
 
     html.classList.remove('selected');
     css.classList.remove('selected');
@@ -78,7 +78,7 @@ github.onclick = function(){
     txt.classList.add('animacao');
     
     h1.innerHTML = 'GitHub';
-    txt.innerHTML = 'Github é uma plataforma de hospedagem de código-fonte e arquivos com controle de versão usando o Git.';
+    txt.innerHTML = 'Github é uma plataforma de hospedagem de códigos-fonte e arquivos com controle de versão usando o Git.';
 
     html.classList.remove('selected');
     css.classList.remove('selected');
