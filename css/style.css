@@ -600,19 +600,6 @@ header .barra-write {
     }
 }
 
-@media screen and (max-width: 1110px){
-    .hab-detalhes p {
-        max-width: 510px;
-    }
-    .projetos img {
-        width: 200px;
-        height: 99.5px;
-    }
-    .bloco3 p {
-        font-size: 14px;
-    }
-}
-
 @media screen and (max-width: 975px){
     .hab-detalhes p {
         max-width: 430px;
