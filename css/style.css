@@ -428,24 +428,7 @@ header .barra-write {
 
 /*--------------------CONTATO--------------------*/
 
-.bloco3 {
-    padding: 8% 15% 8% 15%;
-    background-color: #ccccba;
-}
 
-.bloco3 h1 {
-    text-align: center;
-    letter-spacing: 2px;
-    color: #333;
-}
-
-.contatos {
-    display: flex;
-}
-
-.opcoes-contatos h1 {
-    padding: 8% 0 8% 0;
-}
 
 /*--------------------CONTATO--------------------*/
 
