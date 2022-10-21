@@ -663,6 +663,6 @@ header .barra-write {
     }
 }
 
-@media screen and (max-width: 300px){      /*Galaxy Fold*/
+@media screen and (max-width: 350px){      /*Galaxy Fold or smaller*/
     
 }
