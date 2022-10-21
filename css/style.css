@@ -23,6 +23,7 @@ body {
 }
 
 /*--------------------HEADER--------------------*/
+
 header {
     display: flex;
     padding: 1rem 15%;
@@ -53,12 +54,15 @@ nav ul {
 }
 
 nav ul li {
-    color: #F4A460;
     margin: auto 30px auto 30px;
     white-space: nowrap;
     font-weight: bold;
     font-size: 17px;
     letter-spacing: 1.2px;
+}
+
+nav ul li a {
+    color: #F4A460;
 }
 
 nav ul li:after {
@@ -182,11 +186,14 @@ header .barra-write {
     display: flex;
     text-align: center;
     justify-content: center;
-    color: #F4A460;
     font-weight: bold;
     margin: 30px 25px 25px 25px;
     font-size: 17px;
     letter-spacing: 3px;
+}
+
+.burgeroptns li a {
+    color: #F4A460;
 }
 
 @keyframes appear {
@@ -491,7 +498,7 @@ header .barra-write {
 .bloco4 p {
     letter-spacing: 1px;
     font-size: 19px;
-    color: #535353;
+    color: #222222;
 }
 
 .bloco4 .mr {
@@ -499,12 +506,7 @@ header .barra-write {
 }
 
 .bloco4 a {
-    color: rgb(164, 164, 221);
-    transition: all 0.5s;
-}
-
-.bloco4 a:hover {
-    color: #F4A460;
+    color: rgb(84, 65, 255);
     transition: all 0.5s;
 }
 
