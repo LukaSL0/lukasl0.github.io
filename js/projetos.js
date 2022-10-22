@@ -50,8 +50,7 @@ p3.addEventListener('mouseover', function() {
 // Segunda parte - redirect
 
 p1.addEventListener('click', () => {
-    alert('[EM BREVE]');
-    //window.open('https://lukasl0.github.io/strawberry/');
+    window.open('https://lukasl0.github.io/strawberry/');
 })
 
 p2.addEventListener('click', () => {
