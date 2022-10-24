@@ -54,8 +54,7 @@ p1.addEventListener('click', () => {
 })
 
 p2.addEventListener('click', () => {
-    alert('[EM BREVE]');
-    //window.open('https://lukasl0.github.io/eyeit/');
+    window.open('https://lukasl0.github.io/eyeit/');
 })
 
 p3.addEventListener('click', () => {
