@@ -1,4 +1,5 @@
 const sections = document.querySelectorAll('.init-hidden');
+const seta = document.getElementById('seta');
 
 window.addEventListener('scroll', animaScroll);
 
@@ -8,7 +9,8 @@ function animaScroll() {
         const sectionTop = section.getBoundingClientRect().top;
         const isSectionVisible = sectionTop - halfSection < 0;
         if(isSectionVisible) {
-            section.classList.add('init-hidden-off')
+            section.classList.add('init-hidden-off');
+            seta.classList.add('init-hidden');
         }
     })
 }
