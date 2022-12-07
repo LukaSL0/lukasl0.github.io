@@ -29,27 +29,27 @@ export default function habilidadesScript() {
     }
 
     $html.addEventListener('click', () => {
-        addTextsAnimations()
+        addTextsAnimations();
 
         $h1.innerHTML = 'HTML';
         $txt.innerHTML = 'O HTML é o esqueleto do seu website, configura todos os objetos e imagens do mesmo.';
 
-        removeAllClasses()
+        removeAllClasses();
         $html.classList.add('selected')
     })
 
     $css.addEventListener('click', () => {
-        addTextsAnimations()
+        addTextsAnimations();
 
         $h1.innerHTML = 'CSS';
         $txt.innerHTML = 'O CSS é o corpo do seu website, utilizando o HTML como base, ele define onde cada objeto irá ficar, sua cor, tamanho, etc.';
 
-        removeAllClasses()
+        removeAllClasses();
         $css.classList.add('selected')
     })
 
     $js.addEventListener('click', () => {
-        addTextsAnimations
+        addTextsAnimations();
         
         $h1.innerHTML = 'JavaScript';
         $txt.innerHTML = 'O JavaScript é o código utilizado para executar todas as funções do seu website, por exemplo, essas que você está clicando agora mesmo.';
@@ -59,22 +59,22 @@ export default function habilidadesScript() {
     })
 
     $git.addEventListener('click', () => {
-        addTextsAnimations()
+        addTextsAnimations();
         
         $h1.innerHTML = 'Git';
         $txt.innerHTML = 'O Git é um sistema de controle de versões distribuído, usado principalmente no desenvolvimento de software, utilizado em conjunto com o GitHub.';
 
-        removeAllClasses()
+        removeAllClasses();
         $git.classList.add('selected')
     })
 
     $github.addEventListener('click', () => {
-        addTextsAnimations()
+        addTextsAnimations();
         
         $h1.innerHTML = 'GitHub';
         $txt.innerHTML = 'Github é uma plataforma de hospedagem de códigos-fonte e arquivos com controle de versão usando o Git.';
 
-        removeAllClasses()
+        removeAllClasses();
         $github.classList.add('selected')
     })
 }
