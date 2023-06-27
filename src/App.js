@@ -5,7 +5,7 @@ import Habilidades from './components/habilidades.js';
 
 export default function App() {
     return (
-        <div>
+        <div className="App">
             <Header />
             <Home />
             <i className="fa-solid fa-angles-down scroll"></i>
