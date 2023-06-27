@@ -1,12 +1,19 @@
 import '../css/header.css';
 import Typing from './scripts/typing.js';
-import { useRef } from "react";
+import { useRef, useEffect } from "react";
 
 
 export default function Header() {
-    const items = useRef();
-    const mobile = useRef();
 
+    const mobile = useRef();
+    const items = useRef([]);
+    const pushItems = (el) => items.current.push(el);
+    useEffect(() => {
+        for (let i = 0; i < items.current.length; i++) {
+            items.current[i].addEventListener('click', () => {
+                mobile.current.classList.toggle('toggle');
+            })
+        }})
     const toggle = () => {
         mobile.current.classList.toggle('toggle');
     }
@@ -17,12 +24,11 @@ export default function Header() {
             <nav>
                 <div className="burgericon">
                     <div className="burgeroptns" ref={mobile}>
-                        <li><a href="#home" ref={items}>HOME</a></li>
-                        <li><a href="#habilidades" ref={items}>HABILIDADES</a></li>
-                        <li><a href="#projetos" ref={items}>PROJETOS</a></li>
-                        <li><a href="#contato" ref={items}>CONTATO</a></li>
+                        <li><a href="#home" ref={pushItems}>HOME</a></li>
+                        <li><a href="#habilidades" ref={pushItems}>HABILIDADES</a></li>
+                        <li><a href="#projetos" ref={pushItems}>PROJETOS</a></li>
+                        <li><a href="#contato" ref={pushItems}>CONTATO</a></li>
                     </div>
-
                     <input type="checkbox" className="toggler" onClick={toggle} aria-label="Burger" />
                     <div className="hamburger"><div></div></div>
                 </div>
