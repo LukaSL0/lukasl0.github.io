@@ -7,3 +7,19 @@
   font-family: "Inter", sans-serif;
   scroll-behavior: smooth;
 }
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+	background-color: #dedecd;
+}
