@@ -1,4 +1,4 @@
-import '../css/habilidades.css';
+import '../style/habilidades.css';
 
 export default function Habilidades() {
     return (
