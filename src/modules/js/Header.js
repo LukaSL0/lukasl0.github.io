@@ -4,7 +4,7 @@ import Typing from './scripts/typing.js';
 export default function Header() {
   return (
     <header>
-        <p><i className="fa-solid fa-terminal"><Typing nome="Luka" /></i></p>
+        <Typing nome="Luka" />
         <nav>
             <div className="burgericon">
                 <div className="burgeroptns" id="mobile">
