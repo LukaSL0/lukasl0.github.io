@@ -1,5 +1,5 @@
 import '../css/header.css';
-import Typing from './components/typing.js';
+import Typing from './modules/typing.js';
 import { useRef } from "react";
 
 
