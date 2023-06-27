@@ -1,13 +1,15 @@
 import '../css/header.css';
-import Typing from './scripts/typing.js';
+import Typing from './components/typing.js';
 import { useRef } from "react";
 
 
 export default function Header() {
+    
     const mobile = useRef();
     const toggle = () => {
         mobile.current.classList.toggle('toggle');
     }
+
     return (
         <header>
             <Typing nome="Luka" />
