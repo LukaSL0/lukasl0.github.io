@@ -6,7 +6,7 @@ header {
 }
 
 header p {
-    display: flex;
+    display: inline;
     align-items: center;
     width: 100%;
     font-size: 18px;
@@ -14,9 +14,9 @@ header p {
     letter-spacing: 2px;
 }
 
-header .typing {
-    font-size: 20px;
-    font-weight: lighter;
+header .Typewriter {
+    margin-top: -17px;
+    margin-left: 24px;
 }
 
 nav ul {

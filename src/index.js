@@ -9,5 +9,8 @@ root.render(
   <React.StrictMode>
     <Header />
     <Home />
+    <div className="seta">
+      <i className="fa-solid fa-angles-down scroll"></i>
+    </div>
   </React.StrictMode>
 );

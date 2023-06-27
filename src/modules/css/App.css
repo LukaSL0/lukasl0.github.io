@@ -23,3 +23,13 @@ html, body {
 body {
 	background-color: #dedecd;
 }
+
+/*---------------------------------------------------------*/
+
+.scroll {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  animation: scroll-down 2.1s infinite forwards;
+  color: #e28e44;
+}
