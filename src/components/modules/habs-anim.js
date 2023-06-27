@@ -44,8 +44,8 @@ export default function HabsAnim() {
                 <li className="opcoes" onClick={(e) => {setOpcao('github');toggleSelected(e)}}><i className="fa-brands fa-square-github"></i> Github</li>
             </ul>
             <div className="hab-detalhes">
-                <h1 id="h1selecionado">{titulo}</h1>
-                <p id="descselecionado">{texto}</p>
+                <h1>{titulo}</h1>
+                <p>{texto}</p>
             </div>
         </div>
     )
