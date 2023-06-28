@@ -1,0 +1,144 @@
+.bloco2 {
+    background-color: #dedecd;
+    padding: 8% 15% 8% 15%;
+}
+
+.bloco2 .h12 {
+    text-align: center;
+    letter-spacing: 2px;
+    color: #333333;
+    padding: 0 0 7% 0;
+}
+
+.projetos {
+    display: flex;
+    width: 100%;
+    text-align: center;
+}
+
+.projetos img {
+    border-radius: 20px;
+    width: 330px;
+    height: 164px;
+    box-shadow: 0 4px 4px rgba(0,0,0,.3);
+}
+
+.projetos h1 {
+    opacity: 0;
+}
+
+.projeto {
+    width: 100%;
+}
+
+.projeto-img {
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.projeto-img:hover {
+    transform: scale(104%);
+    margin-top: -20px;
+}
+
+.projeto-txt {
+    opacity: 0;
+    text-align: center;
+    font-weight: bold;
+    color: #535353;
+    cursor: default;
+}
+
+.desc {
+    margin-top: 6%;
+}
+
+.desc h2 {
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(73, 73, 73);
+}
+
+.desc p {
+    letter-spacing: 1px;
+    text-align: center;
+    margin: 15px 0 15px 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(73, 73, 73);
+}
+
+.animacao2 {
+    animation: 0.5s forwards appear2;
+}
+
+.hidden {
+    display: none;
+}
+
+@keyframes appear2 {
+    from {
+      opacity: 0;
+      transform: translate3d(0, -10px, 0);
+    }
+    to {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
+}
+
+@media screen and (max-width: 1710px) {
+    .projetos img {
+        width: 290px;
+        height: 144px;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    .projetos img {
+        width: 280px;
+        height: 139px;
+    }
+    .desc p {
+        font-size: 13.5px;
+    }
+}
+
+@media screen and (max-width: 1260px) {
+    .projetos img {
+        width: 240px;
+        height: 119px;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    .projetos {
+        display: block;
+    }
+    .projetos img {
+        width: 250px;
+        height: 124px;
+    }
+    .projeto-img:hover {
+        margin-top: 0;
+    }
+    .projeto-txt{
+        display: none;
+    }
+    .desc h2 {
+        font-size: 14px;
+    }
+    .desc p {
+        font-weight: lighter;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 345px) {
+    .projetos img {
+        width: 190px;
+        height: 94.5px;
+    }
+}
