@@ -1,13 +1,13 @@
 import { useEffect, useState } from "react";
 import '../style/habilidades.css';
-import HabsOptn from './modules/habs-optn';
+import HabsOptn from './modules/habs-optn.js';
+import { Opcao } from './modules/habs-optn.js';
 
 export default function Habilidades() {
-    
-    // eslint-disable-next-line
-    const [opcao, setOpcao] = useState();
     const [titulo, setTitulo] = useState('Selecione para visualizar');
     const [texto, setTexto] = useState('');
+
+    const opcao = Opcao();
 
     useEffect(() => {
         if (opcao === "HTML") {
@@ -29,7 +29,7 @@ export default function Habilidades() {
     }, [opcao])
 
     return (
-        <section className="bloco1 init-hidden" id="habilidades">
+        <section className="bloco1 init-hidden">
         <h1 className="h11">HABILIDADES</h1>
             <div className="habilidades">
                 <ul>
