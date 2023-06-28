@@ -2,7 +2,6 @@ import '../style/header.css';
 import Typing from './modules/typing.js';
 import { useRef } from "react";
 
-
 export default function Header() {
     
     const mobile = useRef();
