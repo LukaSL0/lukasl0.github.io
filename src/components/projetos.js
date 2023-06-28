@@ -3,7 +3,7 @@ import ProjetosOptn from './modules/projetos-optn';
 
 export default function Projetos() {
     return (
-        <section className="bloco2 init-hidden">
+        <section className="bloco2 init-hidden" id="projetos">
             <h1 className="h12">PROJETOS</h1>
             <div className="projetos">
                 <ProjetosOptn projeto="strawberry"

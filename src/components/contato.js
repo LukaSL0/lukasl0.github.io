@@ -6,7 +6,7 @@ export default function Contato() {
 
 
     return (
-        <section className="bloco3 init-hidden">
+        <section className="bloco3 init-hidden" id="contato">
             <h1>CONTATO</h1>
             <div className="contatos">
                 <div className="opcoes-contatos">

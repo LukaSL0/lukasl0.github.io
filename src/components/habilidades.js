@@ -32,7 +32,7 @@ export default function Habilidades() {
     }, [opcao])
 
     return (
-        <section className="bloco1 init-hidden">
+        <section className="bloco1 init-hidden" id="habilidades">
         <h1 className="h11">HABILIDADES</h1>
             <div className="habilidades">
                 <ul>
