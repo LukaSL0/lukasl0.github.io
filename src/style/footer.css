@@ -1,0 +1,58 @@
+.bloco4 {
+    background-color: #ccccba;
+    padding: 3% 15% 3% 15%;
+}
+
+.direitos p {
+    letter-spacing: 1px;
+    font-size: 19px;
+    color: #222222;
+    margin-bottom: 5px;
+}
+
+.direitos a {
+    color: #1200BD;
+    transition: all 0.5s;
+}
+
+@media screen and (max-width: 1366px) {
+    .direitos p {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 1260px) {
+    .direitos p {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    .direitos p {
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .direitos p {
+        font-size: 10px;
+        letter-spacing: 0;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .direitos p {
+        font-size: 9px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .direitos p {
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 345px){
+    .direitos p {
+        font-size: 6.5px;
+    }
+}

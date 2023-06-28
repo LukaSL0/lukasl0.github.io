@@ -1,9 +1,11 @@
 import './App.css';
+import Line from './components/modules/line.js'
 import Header from './components/header.js';
 import Home from './components/home.js';
 import Habilidades from './components/habilidades.js';
 import Projetos from './components/projetos.js';
 import Contato from './components/contato.js';
+import Footer from './components/footer.js';
 
 export default function App() {
 
@@ -25,10 +27,12 @@ export default function App() {
         <div className="App">
             <Header />
             <Home />
-            <i className="fa-solid fa-angles-down"></i>
+                <i className="fa-solid fa-angles-down"></i>
             <Habilidades />
             <Projetos />
             <Contato />
+                <Line />
+            <Footer />
         </div>
     )
 }

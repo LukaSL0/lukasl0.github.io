@@ -51,6 +51,20 @@ body {
 
 /*---------------------------------------------------------*/
 
+.line {
+  display: flex;
+  background-color: #ccccba;
+}
+
+.lineIN {
+  background-color: #ccccba;
+  border-bottom: solid 1px #ffbd84;
+  margin: auto;
+  width: 70%;
+}
+
+/*---------------------------------------------------------*/
+
 @keyframes scroll-down {
   0% {
     opacity: 0;
