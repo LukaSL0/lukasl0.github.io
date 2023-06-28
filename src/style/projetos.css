@@ -117,6 +117,10 @@
 @media screen and (max-width: 880px) {
     .projetos {
         display: block;
+        padding: 3.5% 0 0 0;
+    }
+    .projeto-img {
+        margin: 7% 0;
     }
     .projetos img {
         width: 250px;

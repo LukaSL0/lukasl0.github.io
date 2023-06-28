@@ -58,12 +58,13 @@
 @media screen and (max-width: 880px) {
     .opcoes-contatos a {
         display: block;
+        padding: 4% 5% 4% 5%;
     }
     .contatos {
-        margin: 4% 0 7% 0;
+        margin: 5% 0 7% 0;
     }
     .opcoes-contatos a {
-        margin: 25px 0 0 0;
+        margin: 15px 0 0 0;
     }
 }
 
