@@ -1,3 +1,3 @@
-# React clean setup by Luka
+# Portfolio
 
-Setup perfeito para iniciar projetos react.
+Portfolio com React JS.
