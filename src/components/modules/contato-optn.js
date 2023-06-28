@@ -1,8 +1,4 @@
-
-
 export default function CotantoOptn(props) {
-
-
 
     return (
         <a href={props.link}
