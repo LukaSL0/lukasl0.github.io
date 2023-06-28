@@ -1,12 +1,12 @@
 export default function ProjetosOptn(props) {
-
+    
     const show = (e) => {
-        if (e.target.classList.contains("strawberry") || e.target.classList.contains("eye") || e.target.classList.contains("brox")) {
+        if (e.target.classList.contains(props.projeto)) {
             document.querySelector(`.txt-${e.target.classList[1]}`).classList.add("animacao2");
         }
     }
     const clear = (e) => {
-        if (e.target.classList.contains("strawberry") || e.target.classList.contains("eye") || e.target.classList.contains("brox")) {
+        if (e.target.classList.contains(props.projeto)) {
             document.querySelector(`.txt-${e.target.classList[1]}`).classList.remove("animacao2");
             document.querySelector(`.txt-${e.target.classList[1]}`).style.opacity = 0;
         }
