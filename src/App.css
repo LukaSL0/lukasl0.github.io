@@ -26,13 +26,30 @@ body {
 
 /*---------------------------------------------------------*/
 
-.scroll {
+.fa-angles-down {
   font-size: 20px;
   display: flex;
   justify-content: center;
   animation: scroll-down 2.1s infinite forwards;
   color: #e28e44;
 }
+
+/*---------------------------------------------------------*/
+
+.init-hidden {
+  opacity: 0;
+  transition: opacity 1s linear;
+}
+
+.scroll-hidden {
+  display: none;
+}
+
+.init-hidden-off {
+  opacity: 1;
+}
+
+/*---------------------------------------------------------*/
 
 @keyframes scroll-down {
   0% {
