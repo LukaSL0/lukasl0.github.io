@@ -19,6 +19,9 @@ export default function Habilidades() {
         } else if (opcao === "JavaScript") {
             setTitulo("JavaScript");
             setTexto("O JavaScript é o código utilizado para executar todas as funções do seu website, por exemplo, essas que você está clicando agora mesmo.");
+        } else if (opcao === "React JS") {
+            setTitulo("React JS");
+            setTexto("O React JS é um framework utilizado para otimizar e organizar de forma moderna um código front-end.")
         } else if (opcao === "Git") {
             setTitulo("Git");
             setTexto("O Git é um sistema de controle de versões distribuído, usado principalmente no desenvolvimento de software, geralmente utilizado em conjunto com o GitHub.");
@@ -33,10 +36,11 @@ export default function Habilidades() {
         <h1 className="h11">HABILIDADES</h1>
             <div className="habilidades">
                 <ul>
-                    <HabsOptn linguagem="HTML" icon="fa-brands fa-html5 htmlic" />
-                    <HabsOptn linguagem="CSS" icon="fa-brands fa-css3-alt cssic" />
-                    <HabsOptn linguagem="JavaScript" icon="fa-brands fa-square-js jsic" />
-                    <HabsOptn linguagem="Git" icon="fa-brands fa-git-alt gitic" />
+                    <HabsOptn linguagem="HTML" icon="fa-brands fa-html5" />
+                    <HabsOptn linguagem="CSS" icon="fa-brands fa-css3-alt" />
+                    <HabsOptn linguagem="JavaScript" icon="fa-brands fa-square-js" />
+                    <HabsOptn linguagem="React JS" icon="fa-brands fa-react" />
+                    <HabsOptn linguagem="Git" icon="fa-brands fa-git-alt" />
                     <HabsOptn linguagem="GitHub" icon="fa-brands fa-square-github" />
                 </ul>
                 <div className="hab-detalhes">

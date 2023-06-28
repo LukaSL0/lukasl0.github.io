@@ -10,19 +10,20 @@
     padding: 0 0 7% 0;
 }
 
-.bloco1 .htmlic {
+.bloco1 .fa-html5 {
     color: #ff5722;
 }
 
-.bloco1 .cssic {
+.bloco1 .fa-css3-alt,
+.bloco1 .fa-react {
     color: #2196f3;
 }
 
-.bloco1 .jsic {
+.bloco1 .fa-square-js {
     color: #c9ae00;
 }
 
-.bloco1 .gitic {
+.bloco1 .fa-git-alt {
     color: #f05033;
 }
 
