@@ -1,0 +1,83 @@
+.bloco3 {
+    padding: 8% 15% 8% 15%;
+    background-color: #ccccba;
+}
+
+.bloco3 h1 {
+    text-align: center;
+    letter-spacing: 2px;
+    color: #333;
+}
+
+.bloco3 p {
+    text-align: center;
+    font-size: 20px;
+}
+
+.contatos {
+    display: flex;
+    margin: 7% 0 7% 0;
+    width: 100%;
+}
+
+.opcoes-contatos {
+    text-align: center;
+    width: 100%;
+}
+
+.opcoes-contatos a {
+    border: solid 2px #333;
+    border-radius: 5px;
+    padding: 2% 5% 2% 5%;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all 0.5s;
+    color: #333;
+    letter-spacing: 2px;
+    margin: 1%;
+}
+
+.opcoes-contatos a:hover {
+    background-color: #333;
+    color: #F4A460;
+    transition: all 0.5s;
+}
+
+@media screen and (max-width: 1710px) {
+    .bloco3 p {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    .bloco3 p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    .opcoes-contatos a {
+        display: block;
+    }
+    .contatos {
+        margin: 4% 0 7% 0;
+    }
+    .opcoes-contatos a {
+        margin: 25px 0 0 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .bloco3 p {
+        font-size: 12px;
+    }
+    .opcoes-contatos a {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 345px) {
+    .bloco3 p {
+        font-size: 12px;
+    }
+}
