@@ -32,9 +32,9 @@ export default function HabsOptn(props) {
 
     return (
         <li className="habilidade"
-        onClick={(e) => {
-            setOpcao(`${props.linguagem}`);
-            toggleSelected(e);
-        }}><i className={props.icon}></i> {props.linguagem}</li>
+            onClick={(e) => {
+                setOpcao(`${props.linguagem}`);
+                toggleSelected(e);
+            }}><i className={props.icon}></i> {props.linguagem}</li>
     )
 }
