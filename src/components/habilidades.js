@@ -44,8 +44,8 @@ export default function Habilidades() {
                     <HabsOptn linguagem="GitHub" icon="fa-brands fa-square-github" />
                 </ul>
                 <div className="hab-detalhes">
-                    <h1>{titulo}</h1>
-                    <p>{texto}</p>
+                    <h1 className="textos">{titulo}</h1>
+                    <p className="textos">{texto}</p>
                 </div>
             </div>
         </section>
