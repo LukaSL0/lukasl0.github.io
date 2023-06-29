@@ -2,17 +2,19 @@ import { useState } from "react";
 import { useBetween } from 'use-between';
 
 const CompartilharState = () => {
-    const [opcao, setOpcao] = useState("");
-    return {opcao, setOpcao};
+    const [titulo, setTitulo] = useState('Selecione para visualizar');
+    const [texto, setTexto] = useState('');
+    return { titulo, setTitulo, texto, setTexto};
 }
-export function Opcao() {
-    const { opcao } = useBetween(CompartilharState);
-    return opcao;
+export function States() {
+    const { titulo, texto } = useBetween(CompartilharState);
+    const strings = `${titulo};${texto}`;
+    return strings;
 }
 
 export default function HabsOptn(props) {
     
-    const { setOpcao } = useBetween(CompartilharState);
+    const { setTitulo, setTexto } = useBetween(CompartilharState);
 
     document.querySelectorAll('.textos').forEach(texto => {
         texto.addEventListener('animationend', () => {
@@ -30,11 +32,16 @@ export default function HabsOptn(props) {
         e.target.classList.add("selected");
     }
 
+    const newOption = () => {
+        setTitulo(props.linguagem);
+        setTexto(props.desc);
+    }
+
     return (
         <li className="habilidade"
             onClick={(e) => {
-                setOpcao(`${props.linguagem}`);
                 toggleSelected(e);
+                newOption();
             }}><i className={props.icon}></i> {props.linguagem}</li>
     )
 }
