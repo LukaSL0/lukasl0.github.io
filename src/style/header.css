@@ -3,6 +3,7 @@ header {
     padding: 1rem 15%;
     height: 3.5em;
     background-color: #dedecd;
+    justify-content: space-between;
 }
 
 header p {
@@ -14,8 +15,6 @@ header p {
 }
 
 header .Typewriter {
-    margin-top: -20px;
-    margin-left: 25px;
     font-size: 18px;
     color: #F4A460;
     letter-spacing: 2px;
@@ -28,12 +27,10 @@ nav ul {
     position: relative;
         top: 50%;
         transform: translateY(-50%);
-    margin-left: 80%;
 }
 
 nav ul li {
-    margin: auto 30px auto 30px;
-    white-space: nowrap;
+    margin: 0 25px;
     font-weight: bold;
     font-size: 17px;
     letter-spacing: 1.2px;
