@@ -1,3 +1,3 @@
 # Portfolio
 
-Portfolio com React JS.
+Meu portfólio em React JS.
