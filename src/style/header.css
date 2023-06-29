@@ -15,6 +15,8 @@ header p {
 }
 
 header .Typewriter {
+    margin-top: -19px;
+    margin-left: 22px;
     font-size: 18px;
     color: #F4A460;
     letter-spacing: 2px;
