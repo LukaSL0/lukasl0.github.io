@@ -138,8 +138,8 @@
         height: 124px;
     }
     .projeto-img:hover {
-        transform: 0;
-        margin-top: 0;
+        transform: scale(100%);
+        margin-top: -1px;
     }
     .projeto-txt{
         display: none;
