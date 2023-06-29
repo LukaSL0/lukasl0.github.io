@@ -11,7 +11,7 @@ export default function Header() {
 
     return (
         <header>
-            <Typing nome="Luka" />
+            <Typing nome="LukaSL" />
             <nav>
                 <div className="burgericon">
                     <div className="burgeroptns" ref={mobile}>
