@@ -3,11 +3,19 @@
     padding: 8% 15% 8% 15%;
 }
 
-.bloco2 .h12 {
+.bloco2 h1 {
     text-align: center;
     letter-spacing: 2px;
     color: #333333;
     padding: 0 0 3% 0;
+}
+
+.bloco2 h2 {
+    text-align: center;
+    letter-spacing: 1px;
+    color: #333333;
+    font-size: 12px;
+    display: none;
 }
 
 .projetos {
@@ -115,6 +123,9 @@
 }
 
 @media screen and (max-width: 880px) {
+    .bloco2 h2 {
+        display: block;
+    }
     .projetos {
         display: block;
         padding: 3.5% 0 0 0;
@@ -127,6 +138,7 @@
         height: 124px;
     }
     .projeto-img:hover {
+        transform: 0;
         margin-top: 0;
     }
     .projeto-txt{

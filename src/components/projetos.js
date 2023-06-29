@@ -4,7 +4,8 @@ import ProjetosOptn from './modules/projetos-optn';
 export default function Projetos() {
     return (
         <section className="bloco2 init-hidden" id="projetos">
-            <h1 className="h12">PROJETOS</h1>
+            <h1>PROJETOS</h1>
+            <h2>(Clique para ser redirecionado)</h2>
             <div className="projetos">
                 <ProjetosOptn projeto="strawberry"
                     imagem="https://cdn.discordapp.com/attachments/890745869832454145/1123506243273768960/strawberry.avif"
@@ -21,7 +22,7 @@ export default function Projetos() {
             </div>
             <div className="desc">
                 <h2>Todos estes projetos foram feitos para clientes autônomos</h2>
-                <p>Os projetos sofreram pequenas modificações para não comprometer informações pessoais, ou o projeto original dos clientes</p>
+                <p>Os projetos sofreram pequenas modificações para não comprometer informações pessoais, ou o projeto original dos clientes.</p>
             </div>
         </section>
     )
