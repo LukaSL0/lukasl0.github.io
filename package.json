@@ -1,6 +1,7 @@
 {
   "name": "first-one",
   "version": "0.1.0",
+  "homepage": "https://lukasl0.github.io/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -14,11 +15,16 @@
     "web-vitals": "^2.1.4"
   },
   "devDependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "gh-pages": "^5.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "commit": "git add . && git commit -m '.'",
+    "push": "git add . && git commit -m '.' && git push",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
