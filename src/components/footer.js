@@ -3,7 +3,7 @@ import '../style/footer.css';
 export default function Footer() {
 
     return (
-        <section className="bloco4">
+        <section className="footer-box">
             <footer>
                 <div className="direitos">
                     <p>© Copyright 2022 Luka de Souza. Todos os direitos reservados.</p>
