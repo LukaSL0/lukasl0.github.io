@@ -37,6 +37,19 @@
     }
 }
 
+@media screen and (max-width: 1080px) {
+    .home h1 {
+        font-size: 18.5px;
+    }
+    .home p {
+        font-size: 14px;
+    }
+    .home img {
+        width: 275px;
+        height: 275px;
+    }
+}
+
 @media screen and (max-width: 880px) {
     .blocoprinc {
         padding: 5% 13% 5% 13%;

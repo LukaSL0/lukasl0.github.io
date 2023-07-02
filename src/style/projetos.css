@@ -122,6 +122,31 @@
     }
 }
 
+@media screen and (max-width: 1080px) {
+    .projetos img {
+        width: 220px;
+        height: 109px;
+    }
+}
+
+@media screen and (max-width: 975px) {
+    .projetos {
+        display: block;
+        padding: 3% 0 0 0;
+    }
+    .projeto-img {
+        margin: 1.5% 0;
+    }
+    .projetos img {
+        width: 250px;
+        height: 124px;
+    }
+    .desc p {
+        font-weight: lighter;
+        font-size: 13px;
+    }
+}
+
 @media screen and (max-width: 880px) {
     .bloco2 h2 {
         display: block;
@@ -136,10 +161,6 @@
     .projetos img {
         width: 250px;
         height: 124px;
-    }
-    .projeto-img:hover {
-        transform: scale(100%);
-        margin-top: -1px;
     }
     .projeto-txt{
         display: none;

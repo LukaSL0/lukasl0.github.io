@@ -44,6 +44,9 @@
 }
 
 @media screen and (max-width: 1710px) {
+    .bloco3 {
+        padding: 5% 15% 5% 15%
+    }
     .bloco3 p {
         font-size: 18px;
     }
@@ -52,6 +55,12 @@
 @media screen and (max-width: 1366px) {
     .bloco3 p {
         font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .bloco3 p {
+        font-size: 15px;
     }
 }
 

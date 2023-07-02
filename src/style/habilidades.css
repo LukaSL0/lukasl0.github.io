@@ -97,12 +97,20 @@
     }
 }
 
+@media screen and (max-width: 1080px) {
+    .hab-detalhes h1 {
+        font-size: 18.5px;
+    }
+    .hab-detalhes p {
+        font-size: 15px;
+    }
+}
+
 @media screen and (max-width: 975px){
     .hab-detalhes p {
         max-width: 430px;
     }
 }
-
 
 @media screen and (max-width:880px) {
     .habilidades {
